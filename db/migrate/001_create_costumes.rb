@@ -4,7 +4,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
 
   def change
     create_table :costumes do |t|
-      t.string :something
+      t.string :name
       t.integer :something
       t.timestamps
   end
