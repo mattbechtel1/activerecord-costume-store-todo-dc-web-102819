@@ -7,6 +7,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
       t.string :name
       t.integer :something
       t.timestamps
+    end
   end
 
 end
